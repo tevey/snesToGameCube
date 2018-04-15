@@ -1,9 +1,10 @@
 # SNES to GameCube adapter
-
-Code for building a SNES to GameCube adapter.
+![Image of adapter](headerImage.jpg)
+Code for building a SNES to GameCube controller adapter.
+Also works with the 8Bitdo [Retro Receiver](http://www.8bitdo.com/retro-receiver-snes/)
 
 ## Software Requirements
-- [Arduino IDE (tested on 1.8.1)](https://www.arduino.cc/en/Main/Software)
+- [Arduino IDE](https://www.arduino.cc/en/Main/Software) (tested on 1.8.1)
 - [Arduino Nintendo Library](https://github.com/NicoHood/Nintendo) by NicoHood
 
 ## Hardware
@@ -11,12 +12,13 @@ Code for building a SNES to GameCube adapter.
 ### Parts
 - Logic Level Converter 5v <-> 3.3v
 - Arduino Pro Mini (5v 16MHz)
+- USB -> Serial adapter if your Arduino comes without USB.
 - 1kΩ Resistor
-- Female SNES controller port
-- Male GameCube controller connector
+- Female SNES controller port (SNES extension cable)
+- Male GameCube controller connector (GameCube extension cable)
 
 ### Wiring
-![Wiring diagram](https://github.com/tevey/snesToGameCube/blob/master/snesToGameCube_bb.png)
+![Wiring diagram](snesToGameCube_bb.png)
 
 The colors of the wires in the cables may not match between the original controller and the extension cable, below is the mapping for my cables the colors may be different for you.
 
